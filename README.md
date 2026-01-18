@@ -10,8 +10,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/AyomideKayode)
 [![Email](https://img.shields.io/badge/Email-Contact-yellow?style=for-the-badge&logo=gmail)](mailto:ayomidekay7@gmail.com)
 
-[![X](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](<[https://x.com/](https://x.com/Ayomide_KayoDev)>)
-[![Medium](https://img.shields.io/badge/Medium-Read_Articles-brown?style=for-the-badge&logo=medium)](<[https://medium.com/](https://medium.com/@kazzywiz7)>)
+[![X](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com/Ayomide_KayoDev)
+[![Medium](https://img.shields.io/badge/Medium-Read_Articles-black?style=for-the-badge&logo=medium)](https://medium.com/@kazzywiz7)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-brightgreen?style=for-the-badge&logo=whatsapp)](https://wa.me/2349033106560)
 
 </div>
