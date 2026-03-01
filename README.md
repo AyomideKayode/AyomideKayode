@@ -53,6 +53,15 @@ const ayomide = {
 
 ## 🚧Featured Projects💫
 
+### [PocketFlow](https://github.com/AyomideKayode/Pocketflow)
+
+#### **Intuitive Personal Finance Tracker**
+
+A simple yet powerful tool designed to turn financial data into actionable insights. PocketFlow helps users record expenses, monitor income, and understand spending patterns in real-time without unnecessary complexity.
+
+- **Focus:** Clarity, Control, and Data Visualization.
+- **Stack:** TypeScript, Next.js, React.
+
 ### [PulseChat](https://github.com/AyomideKayode/PulseChat)
 
 #### **The Real-time Communication Engine**
@@ -64,15 +73,6 @@ A robust chat application engineered for performance and reliability. It feature
 - **Backend:** Node.js & Express with MongoDB.
 - **Frontend:** React, Tailwind CSS, Daisy UI, Zustand for state management.
 - **Integrations:** Resend (Email), Cloudinary (Image Uploads).
-
-### [PocketFlow](https://github.com/AyomideKayode/Pocketflow)
-
-#### **Intuitive Personal Finance Tracker**
-
-A simple yet powerful tool designed to turn financial data into actionable insights. PocketFlow helps users record expenses, monitor income, and understand spending patterns in real-time without unnecessary complexity.
-
-- **Focus:** Clarity, Control, and Data Visualization.
-- **Stack:** TypeScript, Next.js, React.
 
 ---
 
@@ -158,21 +158,17 @@ I'm a continuous learner, always exploring new technologies to sharpen my engine
 
 ## 📊 GitHub Stats
 
-<p align="left">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AyomideKayode&theme=ayu_mirage" alt="Statistic" />
-</p>
+- <p align="left">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AyomideKayode&theme=ayu_mirage" alt="Statistic" />
+  </p>
 
-<br />
+- <p align="left">
+    <img src="https://github-readme-stats.vercel.app/api?username=AyomideKayode&include_all_commits=false&hide_border=true&show_icons=true&theme=noctis_minimus" alt="AyomideKayode's Commits" />
+  </p>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=AyomideKayode&include_all_commits=false&hide_border=true&show_icons=true&theme=noctis_minimus" alt="AyomideKayode's GitHub Stats" />
-</p>
-
-<br />
-
-<div style="display: flex; gap: 20px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AyomideKayode&langs_count=8&hide_border=true&locale=en&layout=compact&theme=noctis_minimus" alt="Top Languages" />
-</div>
+- <div style="display: flex; gap: 20px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AyomideKayode&langs_count=8&hide_border=true&locale=en&layout=compact&theme=noctis_minimus" alt="Top Languages" />
+  </div>
 
 <br />
 
