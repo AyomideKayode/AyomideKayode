@@ -16,7 +16,7 @@
 
 </div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=AyomideKayode&label=Views&base=1000&color=orange&style=plastic&abbreviated=true" alt="AyomideKayode" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=AyomideKayode&label=Views&base=3500&color=orange&style=plastic&abbreviated=true" alt="AyomideKayode" /> </p>
 
 ---
 
@@ -122,17 +122,17 @@ I'm a continuous learner, always exploring new technologies to sharpen my engine
 
 ## 💼🤵🏽 Professional Experience
 
-**Master Control Room Operator – Transmission Unit** | _LN247 News_ (Apr 2024 – Nov 2025)
+**Frontend Developer** | _EzyRent_ (Feb 2026 – Present)
 
-- Managed real-time broadcast transmission with a zero-interruption mandate.
-- Resolved signal and routing issues instantly, reducing downtime.
-- Coordinated live switching and ingest operations in a high-pressure environment.
+- Engineered the property listings feature on the homepage: integrated an internal REST API to fetch and display properties, implemented client-side filters for location, budget, and property type, and built sort functionality aligned to design specifications.
+- Implemented the search page: built a split-view layout with a sticky filter bar, an interactive Leaflet map with custom property markers and Google Maps directions, full-screen map toggle, and a committed search pattern to prevent race conditions on concurrent filter changes.
+- Led frontend implementation of a full website redesign in Next.js, owning the majority of page delivery from Figma specs.
 
-**Full Stack Developer** | _Freelance_ (Feb 2024 – Present)
+**Independent Software Engineer** | _Remote/Freelance_ (Feb 2024 – Present)
 
-- Engineered authentication systems and scalable deployment pipelines.
-- Migrated legacy systems, boosting load performance by up to 30%.
-- Deployed production apps on Render and Vercel with CI/CD.
+- Architected PocketFlow (Fintech SaaS): migrated auth from Clerk to Firebase achieving 40% faster initialization and 300KB+ bundle reduction; built a CSV import engine with custom normalization; designed an async MongoDB job queue for non-blocking data exports; implemented a Single Source of Truth data model ensuring 100% data accuracy.
+- Executed zero-downtime migration of The SMM Place from Express/Vanilla JS to Next.js + TypeScript using the Strangler Fig pattern; replaced client-side Firestore rendering with ISR-backed Server Components; rebuilt auth with Firebase Session Cookies and server-side RBAC via Firebase Custom Claims.
+- Delivered PulseChat, a real-time communication platform with JWT/HTTP-only cookie auth, WebSocket infrastructure, Arcjet rate-limiting, and automated Cloudinary asset purging
 
 **Web Developer** | _The SMM Place_ (Nov 2023 – Jan 2025)
 
@@ -140,19 +140,12 @@ I'm a continuous learner, always exploring new technologies to sharpen my engine
 - Architected a secure, role-based admin dashboard using Node.js & Express.
 - Led development of internal tools and the agency's main website.
 
-**Software Engineering Intern** | _Kujali Care (UK)_ (Feb 2024 – Jul 2024)
-
-- Contributed to healthcare software in a remote-first international team.
-- Built and tested web modules using Python and JavaScript.
-- Mastered agile workflows and code review cycles.
-
 ---
 
 ## 🤝🏽 Open To
 
 - **New Roles:** Full-stack and Backend engineering positions.
 - **Collaborations:** Awesome open-source projects or startup ideas.
-- **Fun:** CODM matches, EFootball sessions, and memorable hangouts!
 
 ---
 
