@@ -130,7 +130,6 @@ I'm a continuous learner, always exploring new technologies to sharpen my engine
 
 ---
 
-
 ## 🤝🏽 Open To
 
 - **New Roles:** Full-stack and Backend engineering positions.
