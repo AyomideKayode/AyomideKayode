@@ -34,18 +34,18 @@ const ayomide = {
   specialization: 'Backend Architecture & High-Availability Systems',
   code: ['TypeScript', 'JavaScript', 'Python'],
   technologies: {
-    backend: ['Node.js', 'Express', 'NestJS', 'FastAPI', 'Flask'],
-    frontend: ['React', 'Next.js', 'Tailwind CSS', 'Daisy UI'],
-    database: ['MongoDB', 'Firebase', 'PostgreSQL', 'MySQL'],
-    cloud: ['Vercel', 'Render'],
+    backend: ['Node.js', 'Express', 'NestJS', 'FastAPI'],
+    frontend: ['React', 'Next.js', 'Tailwind CSS', 'shadcn/ui'],
+    database: ['MongoDB', 'PostgreSQL', 'Supabase', 'Firebase'],
+    cloud: ['Vercel', 'Railway'],
   },
   currentFocus: [
-    'Building scalable real-time systems',
-    'Pocketflow',
-    'PulseChat',
+    'Building scalable backend systems',
+    'UbuntuScamBank — threat intelligence platform',
+    'Demo Credit — fintech wallet API',
   ],
   philosophy:
-    'Treat production code like a live broadcast—failure is not an option.',
+    'Treat production code like a live broadcast — failure is not an option.',
 };
 ```
 
@@ -61,18 +61,28 @@ A simple yet powerful tool designed to turn financial data into actionable insig
 
 - **Focus:** Clarity, Control, and Data Visualization.
 - **Stack:** TypeScript, Next.js, React.
+- **Deployment:** Vercel — live at [pocket-flow-kay.vercel.app](https://pocket-flow-kay.vercel.app/)
 
-### [PulseChat](https://github.com/AyomideKayode/PulseChat)
+### [UbuntuScamBank](https://github.com/The-Root-Access-Network/ubuntu-scam-bank)
 
-#### **The Real-time Communication Engine**
+#### **Crowdsourced Threat Intelligence Platform**
 
-A robust chat application engineered for performance and reliability. It features secure authentication, real-time messaging, online status indicators, and media handling.
+A community-powered scam reporting platform built under the Ubuntu Bridge Initiative. Users report SMS, email, WhatsApp, and link scams, earn points for verified contributions, and access a clean threat intelligence feed. Security researchers consume structured threat data via a REST API.
 
-- **Architecture:** Socket.io server for real-time bidirectional communication.
-- **Security:** Rate limiting with Arcjet, JWT authentication.
-- **Backend:** Node.js & Express with MongoDB.
-- **Frontend:** React, Tailwind CSS, Daisy UI, Zustand for state management.
-- **Integrations:** Resend (Email), Cloudinary (Image Uploads).
+- **AI:** Claude-powered triage and classification.
+- **Stack:** Next.js, Supabase (PostgreSQL + Auth), Tailwind CSS.
+- **Deployment:** Vercel — live at [scambank.ubuntubridgeinitiatives.org](https://scambank.ubuntubridgeinitiatives.org)
+
+### [Demo Credit](https://github.com/AyomideKayode/demo-credit)
+
+#### **Fintech Wallet Service API**
+
+A transactional wallet service providing the infrastructure for a mobile lending app — users receive loan disbursements and send repayments. Built with strict financial invariants, row-level locking, and Karma blacklist integration.
+
+- **Architecture:** Three-layer (Controllers → Services → Repositories) with Knex transactions.
+- **Security:** JWT authentication, Zod validation, amount precision enforcement.
+- **Stack:** Node.js, Express, TypeScript, Knex.js, MySQL, JWT.
+- **Deployment:** Railway — live at [ayomidekay-lendsqr-be-test.up.railway.app](https://ayomidekay-lendsqr-be-test.up.railway.app)
 
 ---
 
@@ -90,7 +100,6 @@ A robust chat application engineered for performance and reliability. It feature
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ### Frontend
@@ -106,7 +115,8 @@ A robust chat application engineered for performance and reliability. It feature
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 
 ---
 
@@ -120,27 +130,6 @@ I'm a continuous learner, always exploring new technologies to sharpen my engine
 
 ---
 
-## 💼🤵🏽 Professional Experience
-
-**Frontend Developer** | _EzyRent_ (Feb 2026 – Present)
-
-- Engineered the property listings feature on the homepage: integrated an internal REST API to fetch and display properties, implemented client-side filters for location, budget, and property type, and built sort functionality aligned to design specifications.
-- Implemented the search page: built a split-view layout with a sticky filter bar, an interactive Leaflet map with custom property markers and Google Maps directions, full-screen map toggle, and a committed search pattern to prevent race conditions on concurrent filter changes.
-- Led frontend implementation of a full website redesign in Next.js, owning the majority of page delivery from Figma specs.
-
-**Independent Software Engineer** | _Remote/Freelance_ (Feb 2024 – Present)
-
-- Architected PocketFlow (Fintech SaaS): migrated auth from Clerk to Firebase achieving 40% faster initialization and 300KB+ bundle reduction; built a CSV import engine with custom normalization; designed an async MongoDB job queue for non-blocking data exports; implemented a Single Source of Truth data model ensuring 100% data accuracy.
-- Executed zero-downtime migration of The SMM Place from Express/Vanilla JS to Next.js + TypeScript using the Strangler Fig pattern; replaced client-side Firestore rendering with ISR-backed Server Components; rebuilt auth with Firebase Session Cookies and server-side RBAC via Firebase Custom Claims.
-- Delivered PulseChat, a real-time communication platform with JWT/HTTP-only cookie auth, WebSocket infrastructure, Arcjet rate-limiting, and automated Cloudinary asset purging
-
-**Web Developer** | _The SMM Place_ (Nov 2023 – Jan 2025)
-
-- Optimized core web performance by 30%, enhancing SEO and retention.
-- Architected a secure, role-based admin dashboard using Node.js & Express.
-- Led development of internal tools and the agency's main website.
-
----
 
 ## 🤝🏽 Open To
 
